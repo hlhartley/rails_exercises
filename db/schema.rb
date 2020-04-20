@@ -26,8 +26,8 @@ ActiveRecord::Schema.define(version: 20190827171459) do
   end
 
   create_table "ownerships", force: :cascade do |t|
-    t.bigint "owner_id"
     t.bigint "dog_id"
+    t.bigint "owner_id"
     t.integer "length"
     t.index ["dog_id"], name: "index_ownerships_on_dog_id"
     t.index ["owner_id"], name: "index_ownerships_on_owner_id"
