@@ -1,4 +1,4 @@
-class Ownership < ActiveRecord::Base
-  belongs_to :owner
+class Ownership < ApplicationRecord
   belongs_to :dog
+  belongs_to :owner
 end

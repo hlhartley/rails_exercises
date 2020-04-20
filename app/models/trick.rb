@@ -1,3 +1,3 @@
-class Trick < ActiveRecord::Base
+class Trick < ApplicationRecord
   belongs_to :dog
 end
