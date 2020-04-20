@@ -1,5 +1,6 @@
 class NonrestfulController < ApplicationController
   def hello
+    
   end
 
   def what_is_your_name
